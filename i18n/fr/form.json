@@ -1,0 +1,69 @@
+{
+  "header": {
+    "new": "Créer une nouvelle facture",
+    "edit": "Modifier la facture",
+    "btns": {
+      "clear": "Supprimer",
+      "update": "Mettre à jour",
+      "saveAndPreview": "Enregistrer et prévisualiser"
+    }
+  },
+  "settings": {
+    "name": "Paramètres du formulaire",
+    "hint": "Activer un champ pour le rendre disponible."
+  },
+  "fields": {
+    "items": {
+      "name": "Produit / Service",
+      "description": "Description",
+      "price": "Prix",
+      "quantity": "Quantité",
+      "add": "Ajouter un nouvel élément"
+    },
+    "recipient": {
+      "name": "Destinataire",
+      "select": "Sélectionner",
+      "add": "Créer un nouveau"
+    },
+    "discount": {
+      "name": "Remise ",
+      "percentage": "Pourcentage",
+      "flat": "Taux Fixe"
+    },
+    "dueDate": {
+      "name": "Échéance",
+      "placeHolder": "Choisir une date",
+      "paymentTerms": {
+        "name": "Sélectionner un term de paiement",
+        "net7": {
+          "label": "Net 2",
+          "description": "Paiement sur 2 fois"
+        },
+        "net10": {
+          "label": "Net 3",
+          "description": "Paiement sur 3 fois"
+        },
+        "net30": {
+          "label": "Net 6",
+          "description": "Paiement sur 6 fois"
+        },
+        "net60": {
+          "label": "Net 12",
+          "description": "Paiement sur 12 fois"
+        },
+        "net90": {
+          "label": "Net 18",
+          "description": "Paiement sur 18 fois"
+        }
+      }
+    },
+    "tax": {
+      "name": "Taxe",
+      "id": "Numéro de TVA",
+      "method": "Méthode",
+      "reverse": "Autoliquidation"
+    },
+    "note": "Remarque",
+    "currency": "Devise"
+  }
+}
